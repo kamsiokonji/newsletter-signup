@@ -1,0 +1,17 @@
+{
+  "name": "newsletter-signup",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Newsletter Signup Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamsi okonji",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  }
+}
