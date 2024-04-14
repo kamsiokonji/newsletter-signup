@@ -66,6 +66,6 @@ app.post("/failure", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`It's alive on http://localhost:${PORT}`);
 });
