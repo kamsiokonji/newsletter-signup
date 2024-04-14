@@ -1,6 +1,5 @@
-import express, { response } from "express";
+import express from "express";
 import bodyParser from "body-parser";
-import request from "request";
 import path from "path";
 import { fileURLToPath } from "url";
 import https from "https";
@@ -70,9 +69,3 @@ app.post("/failure", (req, res) => {
 app.listen(PORT, () => {
   console.log(`It's alive on http://localhost:${PORT}`);
 });
-
-// apiKey
-// b6695961006b67d4bb6da10a42eec6cf-us18
-
-// audienceId
-// 0261f1decb.
